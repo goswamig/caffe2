@@ -1,0 +1,1164 @@
+The system is: Linux - 4.4.0-1052-aws - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ubuntu/src/caffe2/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ubuntu/src/caffe2/build/CMakeFiles/3.9.4/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_3db56/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_3db56.dir/build.make CMakeFiles/cmTC_3db56.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3db56.dir/testCXXCompiler.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++     -o CMakeFiles/cmTC_3db56.dir/testCXXCompiler.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3db56
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3db56.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++       -rdynamic CMakeFiles/cmTC_3db56.dir/testCXXCompiler.cxx.o  -o cmTC_3db56 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_7eac1/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_7eac1.dir/build.make CMakeFiles/cmTC_7eac1.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++     -o CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o -c /home/ubuntu/anaconda3/envs/caffe2_p27/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7eac1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eac1.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++      -v -rdynamic CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7eac1 
+Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs
+COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++
+COLLECT_LTO_WRAPPER=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/
+LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7eac1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7eac1 /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_7eac1/fast"]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_7eac1.dir/build.make CMakeFiles/cmTC_7eac1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++     -o CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o -c /home/ubuntu/anaconda3/envs/caffe2_p27/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7eac1]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eac1.dir/link.txt --verbose=1]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++      -v -rdynamic CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7eac1 ]
+  ignore line: [Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs]
+  ignore line: [COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7eac1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7eac1 /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o]
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7eac1] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_7eac1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o] ==> ignore
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc;/home/ubuntu/anaconda3/envs/caffe2_p27/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_d09b4/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_d09b4.dir/build.make CMakeFiles/cmTC_d09b4.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d09b4.dir/feature_tests.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++1y -o CMakeFiles/cmTC_d09b4.dir/feature_tests.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d09b4
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d09b4.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++       -rdynamic CMakeFiles/cmTC_d09b4.dir/feature_tests.cxx.o  -o cmTC_d09b4 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_b8625/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_b8625.dir/build.make CMakeFiles/cmTC_b8625.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8625.dir/feature_tests.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b8625.dir/feature_tests.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b8625
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8625.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++       -rdynamic CMakeFiles/cmTC_b8625.dir/feature_tests.cxx.o  -o cmTC_b8625 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_00d4f/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_00d4f.dir/build.make CMakeFiles/cmTC_00d4f.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00d4f.dir/feature_tests.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++98 -o CMakeFiles/cmTC_00d4f.dir/feature_tests.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_00d4f
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00d4f.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++       -rdynamic CMakeFiles/cmTC_00d4f.dir/feature_tests.cxx.o  -o cmTC_00d4f 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_3e3b8/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_3e3b8.dir/build.make CMakeFiles/cmTC_3e3b8.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e3b8.dir/testCCompiler.c.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc    -o CMakeFiles/cmTC_3e3b8.dir/testCCompiler.c.o   -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3e3b8
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e3b8.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc      -rdynamic CMakeFiles/cmTC_3e3b8.dir/testCCompiler.c.o  -o cmTC_3e3b8 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_99c8e/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_99c8e.dir/build.make CMakeFiles/cmTC_99c8e.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc    -o CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o   -c /home/ubuntu/anaconda3/envs/caffe2_p27/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_99c8e
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99c8e.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc     -v -rdynamic CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o  -o cmTC_99c8e 
+Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs
+COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc
+COLLECT_LTO_WRAPPER=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/
+LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99c8e' '-mtune=generic' '-march=x86-64'
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_99c8e /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_99c8e/fast"]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_99c8e.dir/build.make CMakeFiles/cmTC_99c8e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc    -o CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o   -c /home/ubuntu/anaconda3/envs/caffe2_p27/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_99c8e]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99c8e.dir/link.txt --verbose=1]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc     -v -rdynamic CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o  -o cmTC_99c8e ]
+  ignore line: [Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs]
+  ignore line: [COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99c8e' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_99c8e /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o]
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_99c8e] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_99c8e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o] ==> ignore
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc;/home/ubuntu/anaconda3/envs/caffe2_p27/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_d3aea/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_d3aea.dir/build.make CMakeFiles/cmTC_d3aea.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3aea.dir/feature_tests.c.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc   -std=c11 -o CMakeFiles/cmTC_d3aea.dir/feature_tests.c.o   -c /home/ubuntu/src/caffe2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d3aea
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3aea.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc      -rdynamic CMakeFiles/cmTC_d3aea.dir/feature_tests.c.o  -o cmTC_d3aea 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_4adae/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_4adae.dir/build.make CMakeFiles/cmTC_4adae.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4adae.dir/feature_tests.c.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc   -std=c99 -o CMakeFiles/cmTC_4adae.dir/feature_tests.c.o   -c /home/ubuntu/src/caffe2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4adae
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4adae.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc      -rdynamic CMakeFiles/cmTC_4adae.dir/feature_tests.c.o  -o cmTC_4adae 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_c2be7/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_c2be7.dir/build.make CMakeFiles/cmTC_c2be7.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2be7.dir/feature_tests.c.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc   -std=c90 -o CMakeFiles/cmTC_c2be7.dir/feature_tests.c.o   -c /home/ubuntu/src/caffe2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c2be7
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2be7.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc      -rdynamic CMakeFiles/cmTC_c2be7.dir/feature_tests.c.o  -o cmTC_c2be7 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_c5394/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_c5394.dir/build.make CMakeFiles/cmTC_c5394.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5394.dir/CheckIncludeFile.c.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc    -o CMakeFiles/cmTC_c5394.dir/CheckIncludeFile.c.o   -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c5394
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5394.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc      -rdynamic CMakeFiles/cmTC_c5394.dir/CheckIncludeFile.c.o  -o cmTC_c5394 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_df21e/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_df21e.dir/build.make CMakeFiles/cmTC_df21e.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df21e.dir/CheckFunctionExists.c.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_df21e.dir/CheckFunctionExists.c.o   -c /home/ubuntu/anaconda3/envs/caffe2_p27/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_df21e
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df21e.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_df21e.dir/CheckFunctionExists.c.o  -o cmTC_df21e -lpthread 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_33f17/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_33f17.dir/build.make CMakeFiles/cmTC_33f17.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33f17.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_33f17.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33f17
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33f17.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++   -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11    -rdynamic CMakeFiles/cmTC_33f17.dir/src.cxx.o  -o cmTC_33f17 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_c5805/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_c5805.dir/build.make CMakeFiles/cmTC_c5805.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5805.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -o CMakeFiles/cmTC_c5805.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c5805
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5805.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall    -rdynamic CMakeFiles/cmTC_c5805.dir/src.cxx.o  -o cmTC_c5805 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_171e6/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_171e6.dir/build.make CMakeFiles/cmTC_171e6.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_171e6.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -o CMakeFiles/cmTC_171e6.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_171e6
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_171e6.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    -rdynamic CMakeFiles/cmTC_171e6.dir/src.cxx.o  -o cmTC_171e6 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_fa37f/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_fa37f.dir/build.make CMakeFiles/cmTC_fa37f.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa37f.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -o CMakeFiles/cmTC_fa37f.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fa37f
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa37f.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    -rdynamic CMakeFiles/cmTC_fa37f.dir/src.cxx.o  -o cmTC_fa37f 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_2c551/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_2c551.dir/build.make CMakeFiles/cmTC_2c551.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c551.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -o CMakeFiles/cmTC_2c551.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2c551
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c551.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror    -rdynamic CMakeFiles/cmTC_2c551.dir/src.cxx.o  -o cmTC_2c551 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_d74ad/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_d74ad.dir/build.make CMakeFiles/cmTC_d74ad.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d74ad.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -o CMakeFiles/cmTC_d74ad.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d74ad
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d74ad.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic    -rdynamic CMakeFiles/cmTC_d74ad.dir/src.cxx.o  -o cmTC_d74ad 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_b7adc/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_b7adc.dir/build.make CMakeFiles/cmTC_b7adc.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7adc.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_b7adc.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b7adc
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7adc.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors    -rdynamic CMakeFiles/cmTC_b7adc.dir/src.cxx.o  -o cmTC_b7adc 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_e5dd1/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_e5dd1.dir/build.make CMakeFiles/cmTC_e5dd1.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5dd1.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wfloat-equal -o CMakeFiles/cmTC_e5dd1.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e5dd1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5dd1.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal    -rdynamic CMakeFiles/cmTC_e5dd1.dir/src.cxx.o  -o cmTC_e5dd1 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_1878d/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_1878d.dir/build.make CMakeFiles/cmTC_1878d.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1878d.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_1878d.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1878d
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1878d.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    -rdynamic CMakeFiles/cmTC_1878d.dir/src.cxx.o  -o cmTC_1878d 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WZERO_AS_NULL_POINTER_CONSTANT succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_17de2/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_17de2.dir/build.make CMakeFiles/cmTC_17de2.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17de2.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_WZERO_AS_NULL_POINTER_CONSTANT  -Wzero-as-null-pointer-constant   -Wzero-as-null-pointer-constant -o CMakeFiles/cmTC_17de2.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_17de2
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17de2.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_WZERO_AS_NULL_POINTER_CONSTANT  -Wzero-as-null-pointer-constant    -rdynamic CMakeFiles/cmTC_17de2.dir/src.cxx.o  -o cmTC_17de2 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_d34d6/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_d34d6.dir/build.make CMakeFiles/cmTC_d34d6.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d34d6.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_d34d6.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d34d6
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d34d6.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    -rdynamic CMakeFiles/cmTC_d34d6.dir/src.cxx.o  -o cmTC_d34d6 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_7dbcd/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_7dbcd.dir/build.make CMakeFiles/cmTC_7dbcd.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7dbcd.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -o CMakeFiles/cmTC_7dbcd.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7dbcd
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dbcd.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    -rdynamic CMakeFiles/cmTC_7dbcd.dir/src.cxx.o  -o cmTC_7dbcd 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_O3_FLAG succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_c77ab/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_c77ab.dir/build.make CMakeFiles/cmTC_c77ab.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c77ab.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -DBENCHMARK_HAS_O3_FLAG   -O3 -o CMakeFiles/cmTC_c77ab.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c77ab
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c77ab.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -DBENCHMARK_HAS_O3_FLAG    -rdynamic CMakeFiles/cmTC_c77ab.dir/src.cxx.o  -o cmTC_c77ab 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_CXX03_FLAG succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_44b26/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_44b26.dir/build.make CMakeFiles/cmTC_44b26.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_44b26.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -DBENCHMARK_HAS_CXX03_FLAG   -std=c++03 -o CMakeFiles/cmTC_44b26.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_44b26
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44b26.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -DBENCHMARK_HAS_CXX03_FLAG    -rdynamic CMakeFiles/cmTC_44b26.dir/src.cxx.o  -o cmTC_44b26 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_WNO_ODR succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_e2fbf/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_e2fbf.dir/build.make CMakeFiles/cmTC_e2fbf.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2fbf.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -DBENCHMARK_HAS_WNO_ODR   -Wno-odr -o CMakeFiles/cmTC_e2fbf.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e2fbf
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2fbf.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -DBENCHMARK_HAS_WNO_ODR    -rdynamic CMakeFiles/cmTC_e2fbf.dir/src.cxx.o  -o cmTC_e2fbf 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_ff75b/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_ff75b.dir/build.make CMakeFiles/cmTC_ff75b.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o   -c /home/ubuntu/src/caffe2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs
+COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/cc1 -quiet -v -iprefix /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/ -D_REENTRANT -isystem /usr/include/x86_64-linux-gnu -isystem /usr/include/i686-linux-gnu -isystem /usr/include/i386-linux-gnu /home/ubuntu/src/caffe2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccMBEVzg.s
+GNU C (GCC) version 4.8.5 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 4.8.5, GMP version 6.1.0, MPFR version 3.1.5, MPC version 1.0.3
+warning: GMP header version 6.1.0 differs from library version 6.1.2.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/include/i686-linux-gnu"
+ignoring nonexistent directory "/usr/include/i386-linux-gnu"
+ignoring nonexistent directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../x86_64-unknown-linux-gnu/include"
+ignoring duplicate directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include"
+ignoring duplicate directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed"
+ignoring nonexistent directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../x86_64-unknown-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/x86_64-linux-gnu
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C (GCC) version 4.8.5 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 4.8.5, GMP version 6.1.0, MPFR version 3.1.5, MPC version 1.0.3
+warning: GMP header version 6.1.0 differs from library version 6.1.2.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7dc36a59b981ea2fca5298a883e56dd0
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o /tmp/ccMBEVzg.s
+GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
+COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/
+LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_ff75b
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff75b.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o  -o cmTC_ff75b 
+Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs
+COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc
+COLLECT_LTO_WRAPPER=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/
+LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_ff75b' '-mtune=generic' '-march=x86-64' '-pthread'
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ff75b /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_ff75b/fast"]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_ff75b.dir/build.make CMakeFiles/cmTC_ff75b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o   -c /home/ubuntu/src/caffe2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs]
+  ignore line: [COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/cc1 -quiet -v -iprefix /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/ -D_REENTRANT -isystem /usr/include/x86_64-linux-gnu -isystem /usr/include/i686-linux-gnu -isystem /usr/include/i386-linux-gnu /home/ubuntu/src/caffe2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccMBEVzg.s]
+  ignore line: [GNU C (GCC) version 4.8.5 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5, GMP version 6.1.0, MPFR version 3.1.5, MPC version 1.0.3]
+  ignore line: [warning: GMP header version 6.1.0 differs from library version 6.1.2.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/include/i686-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/include/i386-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include"]
+  ignore line: [ignoring duplicate directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GCC) version 4.8.5 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5, GMP version 6.1.0, MPFR version 3.1.5, MPC version 1.0.3]
+  ignore line: [warning: GMP header version 6.1.0 differs from library version 6.1.2.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7dc36a59b981ea2fca5298a883e56dd0]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o /tmp/ccMBEVzg.s]
+  ignore line: [GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
+  ignore line: [COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_ff75b]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff75b.dir/link.txt --verbose=1]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o  -o cmTC_ff75b ]
+  ignore line: [Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs]
+  ignore line: [COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_ff75b' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ff75b /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o]
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ff75b] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_ff75b.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o] ==> ignore
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc;/home/ubuntu/anaconda3/envs/caffe2_p27/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_e0e45/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_e0e45.dir/build.make CMakeFiles/cmTC_e0e45.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs
+COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/cc1plus -quiet -v -iprefix /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/ -D_GNU_SOURCE -D_REENTRANT -isystem /usr/include/x86_64-linux-gnu -isystem /usr/include/i686-linux-gnu -isystem /usr/include/i386-linux-gnu /home/ubuntu/src/caffe2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o -version -fopenmp -o /tmp/cclfPoon.s
+GNU C++ (GCC) version 4.8.5 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 4.8.5, GMP version 6.1.0, MPFR version 3.1.5, MPC version 1.0.3
+warning: GMP header version 6.1.0 differs from library version 6.1.2.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/include/i686-linux-gnu"
+ignoring nonexistent directory "/usr/include/i386-linux-gnu"
+ignoring nonexistent directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../x86_64-unknown-linux-gnu/include"
+ignoring duplicate directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include"
+ignoring duplicate directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed"
+ignoring nonexistent directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../x86_64-unknown-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/x86_64-linux-gnu
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../gcc/include/c++
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../gcc/include/c++/x86_64-unknown-linux-gnu
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../gcc/include/c++/backward
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C++ (GCC) version 4.8.5 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 4.8.5, GMP version 6.1.0, MPFR version 3.1.5, MPC version 1.0.3
+warning: GMP header version 6.1.0 differs from library version 6.1.2.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: fdfaf06c00a4858dbacb273a721027a6
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o /tmp/cclfPoon.s
+GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
+COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/
+LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_e0e45
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e45.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o  -o cmTC_e0e45 
+Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs
+COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++
+COLLECT_LTO_WRAPPER=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/
+LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_e0e45' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e0e45 /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_e0e45/fast"]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_e0e45.dir/build.make CMakeFiles/cmTC_e0e45.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs]
+  ignore line: [COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/cc1plus -quiet -v -iprefix /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/ -D_GNU_SOURCE -D_REENTRANT -isystem /usr/include/x86_64-linux-gnu -isystem /usr/include/i686-linux-gnu -isystem /usr/include/i386-linux-gnu /home/ubuntu/src/caffe2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o -version -fopenmp -o /tmp/cclfPoon.s]
+  ignore line: [GNU C++ (GCC) version 4.8.5 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5, GMP version 6.1.0, MPFR version 3.1.5, MPC version 1.0.3]
+  ignore line: [warning: GMP header version 6.1.0 differs from library version 6.1.2.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/include/i686-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/include/i386-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include"]
+  ignore line: [ignoring duplicate directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../gcc/include/c++]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../gcc/include/c++/x86_64-unknown-linux-gnu]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../gcc/include/c++/backward]
+  ignore line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 4.8.5 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5, GMP version 6.1.0, MPFR version 3.1.5, MPC version 1.0.3]
+  ignore line: [warning: GMP header version 6.1.0 differs from library version 6.1.2.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: fdfaf06c00a4858dbacb273a721027a6]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o /tmp/cclfPoon.s]
+  ignore line: [GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
+  ignore line: [COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_e0e45]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e45.dir/link.txt --verbose=1]
+  ignore line: [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o  -o cmTC_e0e45 ]
+  ignore line: [Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs]
+  ignore line: [COLLECT_GCC=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_e0e45' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e0e45 /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o]
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e0e45] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_e0e45.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o] ==> ignore
+    arg [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o] ==> ignore
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/home/ubuntu/anaconda3/envs/caffe2_p27/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> [/home/ubuntu/anaconda3/envs/caffe2_p27/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/home/ubuntu/anaconda3/envs/caffe2_p27/lib/gcc;/home/ubuntu/anaconda3/envs/caffe2_p27/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test CAFFE2_LONG_IS_INT32_OR_64 succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_250b4/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_250b4.dir/build.make CMakeFiles/cmTC_250b4.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_250b4.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -DCAFFE2_LONG_IS_INT32_OR_64 -std=c++11   -o CMakeFiles/cmTC_250b4.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_250b4
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_250b4.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++   -DCAFFE2_LONG_IS_INT32_OR_64 -std=c++11    -rdynamic CMakeFiles/cmTC_250b4.dir/src.cxx.o  -o cmTC_250b4 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cstdint>
+
+    template <typename T> void Foo();
+    template<> void Foo<int32_t>() {}
+    template<> void Foo<int64_t>() {}
+    int main(int argc, char** argv) {
+      Foo<long>();
+      return 0;
+    }
+Performing C++ SOURCE FILE Test CAFFE2_NEED_TO_TURN_OFF_DEPRECATION_WARNING succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_de049/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_de049.dir/build.make CMakeFiles/cmTC_de049.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de049.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -DCAFFE2_NEED_TO_TURN_OFF_DEPRECATION_WARNING -std=c++11   -o CMakeFiles/cmTC_de049.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_de049
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de049.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++   -DCAFFE2_NEED_TO_TURN_OFF_DEPRECATION_WARNING -std=c++11    -rdynamic CMakeFiles/cmTC_de049.dir/src.cxx.o  -o cmTC_de049 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <glog/stl_logging.h>
+    int main(int argc, char** argv) {
+      return 0;
+    }
+Performing C++ SOURCE FILE Test CAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS succeeded with the following output:
+Change Dir: /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make" "cmTC_9a478/fast"
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/make -f CMakeFiles/cmTC_9a478.dir/build.make CMakeFiles/cmTC_9a478.dir/build
+make[1]: Entering directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a478.dir/src.cxx.o
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++    -DCAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS -mavx2   -o CMakeFiles/cmTC_9a478.dir/src.cxx.o -c /home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9a478
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a478.dir/link.txt --verbose=1
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++   -DCAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS -mavx2    -rdynamic CMakeFiles/cmTC_9a478.dir/src.cxx.o  -o cmTC_9a478 
+make[1]: Leaving directory '/home/ubuntu/src/caffe2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <immintrin.h>
+     int main() {
+       __m256i a, b;
+       a = _mm256_set1_epi8 (1);
+       b = a;
+       _mm256_add_epi8 (a,a);
+       return 0;
+     }

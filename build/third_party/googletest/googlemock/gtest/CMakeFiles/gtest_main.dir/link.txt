@@ -1,0 +1,1 @@
+/home/ubuntu/anaconda3/envs/caffe2_p27/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest_main.so -o libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -Wl,-rpath,/home/ubuntu/src/caffe2/build/third_party/googletest/googlemock/gtest: -pthread libgtest.so -pthread 
